@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "main": "node --experimental-modules ./src/main.mjs",
+    "main_2": "node ./src/main_2.js",
+    "main_debug": "node --inspect-brk --experimental-modules ./src/main.mjs",
+    "main_2_brk": "node --inspect-brk ./src/main_2.js",
+    "main_cjs": "node ./src/main.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-zone": "^0.3.0",
+    "rxjs": "^6.3.3"
+  }
+}
